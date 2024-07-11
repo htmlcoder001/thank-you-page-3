@@ -499,7 +499,9 @@ main:after {
   .ty-form__edit, .ty-form__submit {
     font-size: 15px;
   }
-  
+  html, body {
+    background-image: url(../img/main-bg-mob.jpg);
+  }
 }
 
 @media (max-width: 480px) {
