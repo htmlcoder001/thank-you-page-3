@@ -106,6 +106,12 @@ main:after {
 
 .ty-heading__icon:before {
   left: -523px;
+  -webkit-transform: translateY(-50%) rotate(180deg);
+  -moz-transform: translateY(-50%) rotate(180deg);
+  -ms-transform: translateY(-50%) rotate(180deg);
+  -o-transform: translateY(-50%) rotate(180deg);
+  transform: translateY(-50%) rotate(180deg);
+  top: calc(50% - 16px);
 }
 
 .ty-heading__icon:after {
@@ -467,7 +473,6 @@ main:after {
 
 @media (max-width: 575px) {
   .ty-form__input {
-    max-width: 196px;
     font-size: 14px;
     padding-top: 16px;
   }
@@ -476,8 +481,8 @@ main:after {
     top: 12px;
   }
   main {
-    padding-left: 0;
-    padding-right: 0;
+    padding-left: 16px;
+    padding-right: 16px;
   }
   .ty-heading__text {
     padding-top: 24px;
@@ -492,16 +497,9 @@ main:after {
     font-size: 17px;
   }
   .ty-form__edit, .ty-form__submit {
-    max-width: 270px;
-    flex: 1 0 270px;
     font-size: 15px;
   }
-  .ty-content__whatsapp {
-    max-width: 270px;
-  }
-  .ty-content__col {
-    min-height: 280px;
-  }
+  
 }
 
 @media (max-width: 480px) {
